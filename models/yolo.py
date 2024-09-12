@@ -4,6 +4,7 @@ import sys
 import time
 from copy import deepcopy
 import numpy
+import os
 import torch
 sys.path.append('./')  # to run '$ python *.py' files in subdirectories
 logger = logging.getLogger(__name__)
